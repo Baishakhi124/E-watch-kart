@@ -64,7 +64,7 @@ a#scrollUp {
     bottom: 0;
     right: 10px;
     padding: 5px 10px;
-    background: #13D177;
+    background: #5968b3;
     color: #FFF;
     -webkit-animation: bounce 2s ease infinite;
     animation: bounce 2s ease infinite;
@@ -79,7 +79,7 @@ a#scrollUp i {
 **************************/
 
 .header_top {
-    background: none repeat scroll 0 0 #F0F0E9;
+    background: none repeat scroll 0 0 #000000ed;
 }
 
 .contactinfo ul li:first-child {
@@ -149,6 +149,9 @@ a#scrollUp i {
     padding-bottom: 20px;
     padding-top: 20px;
 
+}
+.header-middle {
+    display: none;
 }
 
 .header-middle .container .row .col-sm-4 {
@@ -229,7 +232,7 @@ a#scrollUp i {
     padding-bottom: 20px;
     padding-top: 23px;
     margin-bottom: 20px;
-    background-color: 	#58a878;
+    background-color: 	#0e2491b0;
 }
 
 .navbar-collapse.collapse {
@@ -557,7 +560,7 @@ ul.sub-menu {
 }
 
 .searchform button {
-    background: #13D177;
+    background: #5968b3;
     border: medium none;
     border-radius: 0;
     margin-left: -5px;
@@ -864,7 +867,7 @@ h2.title:before {
 }
 
 h2.title {
-    color: #459f69;
+    color: #5968b3;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -891,7 +894,7 @@ h2.title {
 }
 
 .productinfo h2 {
-    color: #af6372;
+    color: #199d25a1;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -920,7 +923,7 @@ h2.title {
 }
 
 .productinfo a{
-    color: #58A878;
+    color: #696763;
     font-size: medium;
     font-weight: 600;
 }
@@ -970,10 +973,10 @@ h2.title {
 }
 
 .add-to-cart {
-    background: #F5F5ED;
+    background: #5968b3;
     border: 0 none;
     border-radius: 0;
-    color: #696763;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     margin-bottom: 25px;
@@ -1778,6 +1781,7 @@ input{
     height: 25px;
     margin-bottom: 5px;
     border: solid 1px #CCCCCC;
+    float: right;
     border-radius: 3px;
 }
 input:hover{
@@ -1933,6 +1937,12 @@ input:hover{
     height: 335px;
     margin-bottom: 20px;
     padding: 15px 20px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .order-message label {
