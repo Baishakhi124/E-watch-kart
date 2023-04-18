@@ -1509,7 +1509,7 @@ h2.title {
 }
 
 .login-form form button, .signup-form form button {
-    background: #13D177;
+    background: #5968b3;
     border: medium none;
     border-radius: 0;
     color: #FFFFFF;
@@ -1591,7 +1591,8 @@ h2.title {
 }
 
 #cart_items .cart_info .cart_menu {
-    background: #13D177;
+    background:#5968b3;
+    ;
     color: #fff;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
@@ -2406,7 +2407,7 @@ label {
 }
 
 .dev-btn{
-    background: #13D177;
+    background: #5968b3;
     color: #fff;
     border:0 none;
     border-radius: 3px;
@@ -2427,7 +2428,7 @@ label {
     margin-left: 20px;
 }
 .btn.btn-primary {
-    background: #13D177;
+    background: #5968b3;
     border: 0 none;
     border-radius: 3px;
     margin-top: 16px;
